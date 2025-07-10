@@ -19,11 +19,19 @@ body{
    background-color: #F5F8FF;
 }
 
+/* Header Style */
+header{
+   background-image: url(../Assets/Hero-bg.png);
+
+}
+
 /* nav styles */
 .nav-logo{
    font-family: "Inter", sans-serif;
    font-size: 34px;
    font-weight: 900;
+
+   margin-left: 280px;
 
    color: #4E47FF;
 }
@@ -32,6 +40,7 @@ body{
    font-family: "Raleway", sans-serif;
    font-size: 16px;
    font-weight: 700;
+
 
    text-decoration: none;
    color: white;
@@ -42,7 +51,7 @@ body{
 
    border: none;
    border-radius: 5px;
-
+   margin-right: 280px;
    padding: 12px 36px;
 }
 
@@ -51,7 +60,38 @@ body{
    justify-content: space-between;
    align-items: center;
 
-   max-width: 1140px;
+   /* max-width: 1140px; */
    margin: 0px auto 158px auto;
    padding: 50px 0px;
+}
+
+/* Banner Style */
+.banner-title{
+   color: #252432;
+
+   font-family: "Raleway", sans-serif;
+   font-size: 65px;
+   font-weight: 700;
+
+   
+}
+.banner-btn a{
+   font-family: "Raleway", sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+
+   text-decoration: none;
+   color: white;
+}
+.banner-btn{
+   background-color: #4E47FF;
+
+   border: none;
+   border-radius: 5px;
+   padding: 12px 36px;
+   margin-bottom: 152px;
+}
+.banner{
+   text-align: center;
+   margin: 0px auto 152px auto;
 }
