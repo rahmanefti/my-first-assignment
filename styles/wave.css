@@ -21,7 +21,7 @@ body{
 
 /* Header Style */
 header{
-   background-image: url(../Assets/Hero-bg.png);
+   background-image: url(../assets/Hero-bg.png);
 
 }
 
@@ -50,7 +50,7 @@ header{
    background-color: #4E47FF;
 
    border: none;
-   border-radius: 5px;
+   border-radius: 10px;
    margin-right: 280px;
    padding: 12px 36px;
 }
@@ -87,7 +87,7 @@ header{
    background-color: #4E47FF;
 
    border: none;
-   border-radius: 5px;
+   border-radius: 10px;
    padding: 12px 36px;
    margin-bottom: 152px;
 }
@@ -95,3 +95,63 @@ header{
    text-align: center;
    margin: 0px auto 152px auto;
 }
+
+/* Action section Style */
+.action-content{
+   max-width: 517px;
+   margin-top: 62.5px;
+   margin-bottom: 62.5px;
+}
+
+.action-title{
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
+   font-size: 42px;
+
+   margin-bottom: 0px;
+
+   color: #252432;
+}
+
+.action-description{
+   font-family: "Raleway", sans-serif;
+   font-size: 24px;
+
+   color: rgb(37, 36, 50, 0.5);
+}
+
+.action-btn a{
+   font-family: "Raleway", sans-serif;
+   font-size: 16px;
+   font-weight: 700;
+
+   margin-top: 23px;
+
+   text-decoration: none;
+   color: white;
+}
+
+.action-btn{
+   background-color: #4E47FF;
+
+   border: none;
+   border-radius: 10px;
+   padding: 12px 36px;
+}
+
+.action-img{
+   border-radius: 48px;
+   margin-left: 220px;
+}
+
+.action-section{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   /* max-width: 1140px; */
+   /* margin: 0px auto 116px auto; */
+   padding: 116px 240px 116px 220px;
+}
+
+
